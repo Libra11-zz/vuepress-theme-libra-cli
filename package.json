@@ -1,0 +1,30 @@
+{
+  "name": "vuepress-theme-libra-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "vuepress-theme-libra-cli": "./bin/www"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "download-git-repo": "^3.0.2",
+    "execa": "^5.0.0",
+    "fs-extra": "^9.0.1",
+    "import-global": "^0.1.0",
+    "inquirer": "^7.3.3",
+    "lru-cache": "^6.0.0",
+    "minimist": "^1.2.5",
+    "nunjucks": "^3.2.2",
+    "ora": "^5.1.0",
+    "request-promise-native": "^1.0.9",
+    "semver": "^7.3.4",
+    "string.prototype.padstart": "^3.1.1",
+    "valid-filename": "^3.1.0",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
